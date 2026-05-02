@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Baavya Medharamitla Interactive Portfolio">
+<meta name="theme-color" content="#070812">
+
+<link rel="icon" type="image/png" href="butterfly.png.png">
+
+<title>Baavya Medharamitla | Interactive Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="dark-mode">
+
+<!-- LOADER -->
+<div id="loader">
+<div class="loader-butterfly"></div>
+</div>
+
+<!-- BACKGROUND -->
+<canvas id="bg"></canvas>
+<div class="ambient-glow glow-1"></div>
+<div class="ambient-glow glow-2"></div>
+
+<!-- CURSOR -->
+<div id="butterfly-cursor">
+<svg viewBox="0 0 200 200">
+<path d="M100 100 C40 20,10 70,65 110 C20 140,45 190,100 120"/>
+<path d="M100 100 C160 20,190 70,135 110 C180 140,155 190,100 120"/>
+<line x1="100" y1="70" x2="100" y2="130"/>
+</svg>
+</div>
+
+<!-- NAVBAR -->
+<header class="nav">
+
+<div class="logo magnetic">
+
+<svg class="butterfly-logo" viewBox="0 0 200 200">
+<path d="M100 100 C40 20,10 70,65 110 C20 140,45 190,100 120"/>
+<path d="M100 100 C160 20,190 70,135 110 C180 140,155 190,100 120"/>
+<line x1="100" y1="70" x2="100" y2="130"/>
+</svg>
+
+<span>BAAVYA</span>
+
+</div>
+
+<nav>
+<a href="#hero" class="magnetic">Home</a>
+<a href="#about" class="magnetic">About</a>
+<a href="#experience" class="magnetic">Experience</a>
+<a href="#projects" class="magnetic">Projects</a>
+<a href="#skills" class="magnetic">Skills</a>
+<a href="#achievements" class="magnetic">Achievements</a>
+<a href="#contact" class="magnetic">Contact</a>
+</nav>
+
+<button id="theme-toggle" class="theme-toggle" type="button">
+
+<div class="toggle-track">
+<div class="toggle-butterfly">
+
+<svg viewBox="0 0 200 200">
+<path d="M100 100 C40 20,10 70,65 110 C20 140,45 190,100 120"/>
+<path d="M100 100 C160 20,190 70,135 110 C180 140,155 190,100 120"/>
+</svg>
+
+</div>
+</div>
+
+</button>
+
+</header>
+
+<!-- HERO -->
+<section id="hero" class="hero section">
+
+<div class="hero-content reveal">
+
+<div class="sticker">INTERACTIVE SYSTEMS ENGINEER</div>
+
+<h1>
+Building intelligent digital systems where software, motion and innovation converge
+</h1>
+
+<p>
+ECE student and software developer creating immersive web experiences, AI systems and hardware-software engineering solutions.
+</p>
+
+<div class="hero-buttons">
+<a href="#projects" class="btn magnetic">Explore Work</a>
+<a href="resume.pdf" target="_blank" class="btn outline magnetic">Resume</a>
+</div>
+
+</div>
+
+<div class="hero-metrics reveal">
+
+<div>
+<h3>10+</h3>
+<p>Projects</p>
+</div>
+
+<div>
+<h3>4</h3>
+<p>Internships</p>
+</div>
+
+<div>
+<h3>4+</h3>
+<p>Hackathons</p>
+</div>
+
+<div>
+<h3>8.4</h3>
+<p>CGPA</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+
+<h2 class="section-title reveal">The Journey</h2>
+
+<div class="grid-2">
+
+<div class="card magnetic reveal">
+<h3>Engineering Foundation</h3>
+<p>Built through electronics, embedded intelligence and systems thinking.</p>
+</div>
+
+<div class="card magnetic reveal">
+<h3>Software Evolution</h3>
+<p>Expanding into scalable software systems and immersive digital experiences.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+
+<h2 class="section-title reveal">Experience</h2>
+
+<div class="timeline">
+
+<div class="timeline-item magnetic reveal">
+<h3>Chennai Metro Rail</h3>
+<p>AFC Systems & Infrastructure Operations</p>
+</div>
+
+<div class="timeline-item magnetic reveal">
+<h3>Inspire Softech</h3>
+<p>Generative AI & LangChain Workflows</p>
+</div>
+
+<div class="timeline-item magnetic reveal">
+<h3>Test Yantra</h3>
+<p>Full Stack Development</p>
+</div>
+
+<div class="timeline-item magnetic reveal">
+<h3>I Net Secure Labs</h3>
+<p>Backend System Engineering</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+
+<h2 class="section-title reveal">Featured Systems</h2>
+
+<div class="projects-grid">
+
+<a href="#" class="project-card magnetic reveal featured">
+<div class="tag">FLAGSHIP</div>
+<h3>ISAI Musically</h3>
+<p>React + Firebase streaming platform</p>
+</a>
+
+<a href="#" class="project-card magnetic reveal">
+<h3>CivicFix</h3>
+<p>AI civic platform</p>
+</a>
+
+<a href="#" class="project-card magnetic reveal">
+<h3>Drowsiness Detection</h3>
+<p>Driver intelligence system</p>
+</a>
+
+<a href="#" class="project-card magnetic reveal">
+<h3>FluxCore Transit</h3>
+<p>Transit intelligence platform</p>
+</a>
+
+<a href="#" class="project-card magnetic reveal">
+<h3>Gesture LED</h3>
+<p>Computer vision control</p>
+</a>
+
+<a href="#" class="project-card magnetic reveal">
+<h3>MedCare</h3>
+<p>Healthcare booking ecosystem</p>
+</a>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+
+<h2 class="section-title reveal">Capabilities</h2>
+
+<div class="grid-4">
+
+<div class="card magnetic reveal">Frontend</div>
+<div class="card magnetic reveal">Backend</div>
+<div class="card magnetic reveal">AI</div>
+<div class="card magnetic reveal">Embedded Systems</div>
+
+</div>
+
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="section">
+
+<h2 class="section-title reveal">Recognition</h2>
+
+<div class="grid-2">
+
+<div class="card magnetic reveal">SDG Hackathon Finalist</div>
+<div class="card magnetic reveal">Live Synth Recognition</div>
+<div class="card magnetic reveal">Gesture System Award</div>
+<div class="card magnetic reveal">Workshop Leadership</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+
+<h2 class="reveal">Let’s Build Something Meaningful</h2>
+
+<p class="reveal">
+Open to innovative collaborations and software engineering opportunities.
+</p>
+
+<div class="contact-buttons reveal">
+
+<a href="mailto:baavyamedharamitla@gmail.com" class="btn magnetic">Email</a>
+
+<a href="YOUR_LINKEDIN" target="_blank" class="btn outline magnetic">LinkedIn</a>
+
+<a href="YOUR_GITHUB" target="_blank" class="btn outline magnetic">GitHub</a>
+
+</div>
+
+</section>
+
+<footer>
+<p>Crafted through code, motion and imagination — Baavya Medharamitla</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
